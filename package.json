@@ -1,7 +1,7 @@
 {
-  "name": "calculator-ts",
+  "name": "calculator",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "calculator.js",
   "types": "calculator.d.ts",
   "type": "module",
   "scripts": {
