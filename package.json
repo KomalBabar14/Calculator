@@ -1,5 +1,5 @@
 {
-  "name": "calculator",
+  "name": "new-calculator",
   "version": "1.0.0",
   "main": "calculator.js",
   "types": "calculator.d.ts",
