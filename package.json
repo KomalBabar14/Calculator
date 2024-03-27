@@ -1,20 +1,15 @@
 {
-  "name": "calculator",
+  "name": "calculator-ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "calculator.js",
+  "types": "calculator.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Komal Babar",
-  "license": "ISC",
-  "dependencies": {
-    "@types/inquirer": "^9.0.7",
-    "inquirer": "^9.2.16"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.30"
+  "author": "Your Name",
+  "license": "MIT",
+  "description": "A simple calculator library written in TypeScript",
+  "bin": {
+      "calculator": "./calculator.js"
   }
 }
