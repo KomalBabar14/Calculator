@@ -6,18 +6,16 @@ async function showSplashScreen() {
     console.clear();
     console.log("Welcome to My Application\n");
     console.log("Loading...");
-    // Simulate loading for 2 seconds
     await sleep(2000);
 }
 async function main() {
     await showSplashScreen();
-    // Your main application logic goes here
     function printStyledTextP(text, styleCode, colorCode, bgColorCode) {
         console.log(`\x1b[${styleCode};${colorCode};${bgColorCode}m${text}\x1b[0m`);
     }
-    printStyledTextP("WELCOME TO THE WORLD OF COMPUTING", "3", "33", "40"); // Italic yellow text on black background
-    printStyledTextP("FIXING YOUR PROBLEMS IN NO TIME....", "1", "97", "45"); // Bold white text on dark pink background
-    printStyledTextP("CALCULATOR", "4", "32", "47"); // Underlined green text on white background
+    printStyledTextP("WELCOME TO THE WORLD OF COMPUTING", "3", "33", "40");
+    printStyledTextP("FIXING YOUR PROBLEMS IN NO TIME....", "1", "97", "45");
+    printStyledTextP("CALCULATOR", "4", "32", "47");
     function printStyledText(text, styleCode, colorCode, bgColorCode) {
         console.log(`\x1b[${styleCode};${colorCode};${bgColorCode}m${text}\x1b[0m`);
     }
