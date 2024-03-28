@@ -1,15 +1,17 @@
 import inquirer from 'inquirer';
-function sleep(ms) {
+/*
+function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-async function showSplashScreen() {
+async function showSplashScreen(): Promise<void> {
     console.clear();
     console.log("Welcome to My Application\n");
     console.log("Loading...");
     await sleep(2000);
 }
+*/
 async function main() {
-    await showSplashScreen();
+    //  await showSplashScreen();
     function printStyledTextP(text, styleCode, colorCode, bgColorCode) {
         console.log(`\x1b[${styleCode};${colorCode};${bgColorCode}m${text}\x1b[0m`);
     }

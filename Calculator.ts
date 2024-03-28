@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-
+/*
 function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -9,8 +9,9 @@ async function showSplashScreen(): Promise<void> {
     console.log("Loading...");
     await sleep(2000);
 }
+*/
 async function main(): Promise<void> {
-    await showSplashScreen();
+  //  await showSplashScreen();
 
 function printStyledTextP(text: string, styleCode: string, colorCode: string, bgColorCode: string): void {
     console.log(`\x1b[${styleCode};${colorCode};${bgColorCode}m${text}\x1b[0m`);
